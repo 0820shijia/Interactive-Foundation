@@ -19,7 +19,7 @@ body{
     top: 100px;
     left: 150px;
     border-radius: 50px 50px 20px 20px;
-
+}
 
 .handle {
     width: 300px;
@@ -29,6 +29,7 @@ body{
     left: 100px;
     top: 180px;
     border-radius: 10px;
+}
 
 .counter {
     width: 200px;
@@ -37,3 +38,4 @@ body{
     position: absolute;
     left: 150px;
     top: 140px;
+}

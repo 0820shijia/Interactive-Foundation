@@ -1,0 +1,28 @@
+body {
+  background-color: lightgrey;
+}
+
+
+.link{
+  font-family: sans-serif;
+  color:white;
+  font-size:18px;
+  font-style: bold;
+  margin:left;
+}
+
+
+h1 {
+  color: white;
+  font-family: sans-serif;
+  top:100px;
+  position:relative;
+}
+
+p {
+  color: white;
+  font-family: sans-serif;
+  font-size: large;
+  top:100px;
+  position:relative;
+}

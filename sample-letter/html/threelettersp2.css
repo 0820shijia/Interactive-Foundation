@@ -1,0 +1,126 @@
+/** { 
+
+    border: 1px solid blue;
+    box-sizing:border-box;
+
+}*/
+
+body{
+    position: relative;
+    top:100px;
+    font-family: arial, sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+    font-style: bold;
+    color: #1bd406;
+
+}
+
+div{
+    box-sizing: border-box;
+}
+
+#polkadothome{
+    position:absolute;
+    margin-top: -100px;
+    margin-left:452px;
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    border: 10px solid pink;
+    border-radius: 50px;
+
+}
+
+#homelink{
+    position:absolute;
+    position: absolute;
+    margin-top: -67px;
+    margin-left: 467px;
+    font-family: syncopate;
+    font-size: 13px;
+    font-style: bold;
+    color:pink;
+}
+
+#small-a {
+    left: 15px;
+    top: 424px;
+    width: 32px;
+    height: 56px;    
+    position: absolute;
+    background: rgba(255,0,0,.2);
+}
+
+#small-b {
+    left: 50px;
+    top: 424px;
+    width: 32px;
+    height: 56px;    
+    position: absolute;
+    background: rgba(255,0,0,.2);
+}
+
+.mapsquare {
+    width: 130px;
+    height: 130px;
+    background: pink;
+    border: 10px solid pink;
+    border-radius: 0px;
+    position:absolute;
+    top: 633px;
+    left: 343px;
+    opacity: .5;
+}
+
+.mapquartercirc{
+    width: 130px;
+    height: 130px;
+    background: pink;
+    border: 10px solid pink;
+    border-radius: 0px;
+    border-bottom-left-radius: 100%;
+    position:absolute;
+    top: 632px;
+    left: 42px;
+    opacity: .5;    
+}
+
+/* hover states */
+
+.square:hover ~ .mapsquare {
+    opacity: 1;
+}
+
+.circ:hover ~ .mapquartercirc  {
+    opacity: 1;
+}
+
+/* animations */
+
+@keyframes spin {
+    0% { transform: rotateY(0deg); }
+    50% { transform: rotateY(360deg); }
+    100% { transform: rotateY(0deg); }
+}
+
+img {
+    animation: spin 2s linear normal forwards;
+}
+
+img:hover{
+  animation-play-state: paused;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

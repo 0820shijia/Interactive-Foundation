@@ -1,0 +1,487 @@
+body {
+  background-color: lightgrey;
+  background-image:  url("jia.jpg");
+  background-position: center right;
+  height: 1626px;
+  z-index: 0px;}
+
+.link{
+	font-family: sans-serif;
+	color:white;
+	font-size:18px;
+	font-style: bold;
+
+}
+
+
+.vertical-left {
+	width: 40px;
+	height: 120px;
+	background-image: linear-gradient(to right, rgba(116,70,119,1), rgba(242,196,105,1));
+    top: 0px;
+    left: 0px;
+    z-index:10;
+    position: absolute;
+}
+
+.vertical-right {
+	width: 40px;
+	height: 120px;
+    background-image: linear-gradient(to right, rgba(116,70,119,1), rgba(242,196,105,1));
+	top: 0px;
+	left: 70px;
+	z-index:10;
+    position: absolute;
+}
+
+.vertical-middle {
+	width: 40px;
+	height: 120px;
+    background-image: linear-gradient(to right, rgba(116,70,119,1), rgba(242,196,105,1));
+	top: 0px;
+	left: 35px;
+    position: absolute;
+}
+
+.horizontal-top {
+    width: 100px;
+	height: 9px;
+	background-image:linear-gradient(180deg, rgba(116,70,119,1), rgba(242,196,105,1));
+	top: 0px;
+	left: 0px;
+    position: absolute;
+	z-index:1;
+
+}
+
+.horizontal-top2 {
+    width: 100px;
+	height: 9px;
+	background-image:linear-gradient(180deg, rgba(201,204,249),rgba(116,70,119,1));
+	top: 0px;
+	left: 0px;
+    position: absolute;
+	z-index:1;
+
+}
+
+.horizontal-middle {
+    width: 100px;
+	height: 9px;
+	background-image:linear-gradient(180deg, rgba(116,70,119,1), rgba(242,196,105,1));
+	top: 50px;
+	left: 0px;
+    position: absolute;
+}
+
+.horizontal-middle-small{
+	width: 50px;
+	height: 9px;
+	background-image:linear-gradient(180deg, rgba(116,70,119,1), rgba(242,196,105,1));
+	top: 50px;
+	left: 50px;
+    position: absolute;
+}
+.horizontal-bottom {
+    width: 100px;
+	height: 9px;
+	background-image:linear-gradient(180deg, rgba(116,70,119,1), rgba(242,196,105,1));
+	top: 111px;
+	left: 0px;
+    position: absolute;
+}
+
+.vertical-middle-small{
+	width: 40px;
+	height: 40px;
+    background-image: linear-gradient(to right, rgba(116,70,119,1), rgba(242,196,105,1));
+	top: 42px;
+	left: 20px;
+    position: absolute;
+}
+
+.vertical-middle-small2{
+	width: 40px;
+	height: 40px;
+    background-image:linear-gradient(180deg, rgba(201,204,249),rgba(116,70,119,1));
+	top: 42px;
+	left: 20px;
+    position: absolute;
+}
+
+.vertical-right-small{
+	width: 40px;
+	height: 40px;
+    background-image: linear-gradient(to right, rgba(116,70,119,1), rgba(242,196,105,1));
+	top: 0px;
+	left: 60px;    
+	position: absolute;
+	z-index: 10;
+
+}
+
+.vertical-right-small2{
+	width: 40px;
+	height: 40px;
+    background-image:linear-gradient(180deg, rgba(201,204,249),rgba(116,70,119,1));
+	top: 0px;
+	left: 60px;
+    position: absolute;
+	z-index: 10;
+
+}
+
+.vertical-bottom-small{
+	width: 40px;
+	height: 36px;
+	background-image: linear-gradient(to right, rgba(116,70,119,1), rgba(242,196,105,1));
+	top: 86px;
+	left: 20px;
+    position: absolute;
+
+}
+
+.vertical-bottom-small2{
+	width: 40px;
+	height: 36px;
+    background-image:linear-gradient(180deg, rgba(201,204,249),rgba(116,70,119,1));	top: 111px;
+	top: 86px;
+	left: 20px;
+    position: absolute;
+}
+
+.diagnol-center-small{
+	width: 90px;
+	height: 9px;
+	transform: rotateZ(45deg);
+	background-image:linear-gradient(180deg, rgba(116,70,119,1), rgba(242,196,105,1));
+    position: absolute;
+    top: 32px;
+}
+
+.vertical-medium-right{
+	width: 40px;
+	height: 69px;
+	background-image:linear-gradient(180deg, rgba(116,70,119,1), rgba(242,196,105,1));
+    position: absolute;
+    top: 51px;
+    left: 60px;
+}
+
+.vertical-medium-left{
+	width: 40px;
+	height: 60px;
+	background-image:linear-gradient(180deg, rgba(116,70,119,1), rgba(242,196,105,1));
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+#b {
+	background: transparent;
+	height: 140px;
+    width: 120px;
+   position: relative;
+    display: inline-block;
+    top: 750px;
+    left:0px;
+}
+
+#a {
+	height: 140px;
+    width: 120px;
+    position: relative;
+    display: inline-block;
+    top: 750px;
+    left:380px;
+}
+
+#a2 {
+	height: 140px;
+    width: 120px;
+    position: relative;
+    display: inline-block;
+    top: 750px;
+    left:635px;
+}
+
+
+#c {
+	background: transparent;
+	height: 140px;
+    width: 120px;
+   position: relative;
+	display: inline-block;
+	top: 1000px;
+	left: 0px;
+}
+
+#e {
+	background: transparent;
+	height: 140px;
+    width: 120px;
+   position: relative;
+	display: inline-block;
+	top: 1000px;
+	left: 0px;
+}
+
+#l {
+	background: transparent;
+	height: 140px;
+    width: 120px;
+   position: relative;
+	display: inline-block;
+	top: 1000px;
+	left: 0px;
+}
+
+#l2 {
+	background: transparent;
+	height: 140px;
+    width: 120px;
+   position: relative;
+	display: inline-block;
+	top: 1000px;
+	left: 0px;
+}
+
+#l3 {
+	background: transparent;
+	height: 140px;
+    width: 120px;
+   position: relative;
+	display: inline-block;
+    top: 750px;
+	left: -355px;
+}
+
+#l4{
+	background: transparent;
+	height: 140px;
+    width: 120px;
+   position: relative;
+	display: inline-block;
+    top: 750px;
+	left: -350px;
+}
+
+#i {
+	background: transparent;
+	height: 140px;
+    width: 120px;
+   position: relative;
+	display: inline-block;
+	top: 1000px;
+	left: 0px;
+}
+
+
+
+#n {
+	background: transparent;
+	height: 140px;
+    width: 120px;
+	   position: relative;
+	display: inline-block;
+	top: 1000px;
+	left: -10px;
+}
+
+
+#g {
+	background: transparent;
+	height: 140px;
+    width: 120px;
+   position: relative;
+	display: inline-block;
+	top: 1000px;
+	left: 10px;
+}
+
+#s {
+	background: transparent;
+	height: 140px;
+    width: 120px;
+   position: relative;
+	display: inline-block;
+	    top: 750px;
+	left: -400px;
+}
+
+#comma{
+	background: transparent;
+	height: 140px;
+    width: 120px;
+	   position: relative;
+	display: inline-block;
+    top: 750px;
+	left: -650px;
+}
+
+#question {
+	background: transparent;
+	height: 140px;
+    width: 120px;
+	   position: relative;
+	display: inline-block;
+	top: 800px;
+	left: 0px;
+}
+
+#question-a{
+	background: transparent;
+	height: 140px;
+    width: 120px;
+	   position: relative;
+	display: inline-block;
+	top: 400px;
+	left: 500px;
+}
+
+#question-b {
+	background: transparent;
+	height: 140px;
+    width: 120px;
+	position: relative;
+	display: inline-block;
+	top: 800px;
+	left: 1200px;
+}
+
+#question-c {
+	background: transparent;
+	height: 140px;
+    width: 120px;
+	position: relative;
+	display: inline-block;
+	top: 100px;
+	left: 0px;
+}
+
+#question-d {
+	background: transparent;
+	height: 140px;
+    width: 120px;
+	position: relative;
+	display: inline-block;
+	top: 1200px;
+	left: 0px;
+}
+
+#question-e {
+	background: transparent;
+	height: 140px;
+    width: 120px;
+	position: relative;
+	display: inline-block;
+	top: 900px;
+	left: 195px;
+}
+
+/* hover states */
+
+/*p:hover, div:hover, a:hover {
+  background-color: yellow;
+}
+*/
+
+#a:hover {
+	transform: scale(2) 
+}
+
+#a2:hover {
+	transform: scale(2) 
+}
+
+
+#b:hover {
+	transform: scale(2) 
+
+}
+
+#c:hover {
+	transform: scale(2) 
+}
+
+#e:hover {
+	transform: scale(2);
+}
+
+#l:hover {
+		transform: scale(2) 
+}
+
+#l2:hover {
+	transform: scale(2) 
+}
+
+#l3:hover {
+	transform: scale(2) 
+}
+
+#l4:hover {
+	transform: scale(2) 
+}
+
+#i:hover {
+	transform: scale(2) 
+}
+
+#n:hover {
+	transform: scale(2) 
+}
+
+#g:hover {
+	transform: scale(2) 
+}
+
+#comma:hover {
+	transform: scale(2);
+	  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+#s:hover {
+	transform: scale(2) 
+}
+/*animations*/
+
+
+
+#question:hover{
+transform-style: preserve-3d;
+transform: rotateY(360deg);
+transition: all 1s ease-out 0s;
+color: red;
+}
+
+#question-a:hover{
+transform-style: preserve-3d;
+transform: rotateY(360deg);
+transition: all 1s ease-out 0s;
+}
+
+#question-b:hover{
+transform-style: preserve-3d;
+transform: rotateY(360deg);
+transition: all 1s ease-out 0s;
+}
+
+#question-c:hover{
+ transform-style: preserve-3d;
+transform: rotateY(360deg);
+transition: all 1s ease-out 0s;
+}
+
+#question-d:hover{
+transform-style: preserve-3d;
+transform: rotateY(360deg);
+transition: all 1s ease-out 0s;
+}
+
+#question-e:hover{
+transform-style: preserve-3d;
+transform: rotateY(360deg);
+transition: all 1s ease-out 0s;
+}

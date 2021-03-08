@@ -1,0 +1,243 @@
+body {
+  background-color: lightblue;
+}
+
+p{
+  font-family: "helvetica", Times, serif;
+}
+
+
+.vertical-left {
+	width: 40px;
+	height: 120px;
+	border: 4px solid black;
+	background-color:black;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.vertical-right {
+	width: 40px;
+	height: 120px;
+	border: 4px solid black;
+	background-color:black;
+	top: 0px;
+	left: 70px;
+	position: absolute;
+}
+
+.vertical-middle {
+	width: 40px;
+	height: 120px;
+	border: 4px solid black;
+	background-color:black;
+	top: 0px;
+	left: 35px;
+	position: absolute;
+}
+
+.horizontal-top {
+    width: 100px;
+	height: 9px;
+	border: 4px solid black;
+	background-color:black;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+
+}
+
+.horizontal-middle {
+    width: 100px;
+	height: 9px;
+	border: 4px solid black;
+	background-color:black;
+	top: 50px;
+	left: 0px;
+	position: absolute;
+}
+
+.horizontal-bottom {
+    width: 100px;
+	height: 9px;
+	border: 4px solid black;
+	background-color:black;
+	top: 111px;
+	left: 0px;
+	position: absolute;
+}
+
+.vertical-small-middle{
+	width: 40px;
+	height: 40px;
+	border: 4px solid black;
+	background-color:black;
+	top: 48px;
+	left: 14px;
+	position: absolute;
+}
+
+.vertical-small-right{
+	width: 40px;
+	height: 40px;
+	border: 4px solid black;
+	background-color:black;
+	top: 0px;
+	left: 60px;
+	position: absolute;
+
+}
+
+.vertical-small-bottom{
+	width: 40px;
+	height: 36px;
+	border: 4px solid black;
+	background-color:black;
+	top: 111px;
+	left: 13px;
+	position: absolute;
+
+}
+
+#a {
+	height: 128px;
+    width: 118px;
+    position: relative;
+    display: inline-block;
+}
+
+#b {
+	background: yellow;
+	height: 128px;
+    width: 118px;
+    position: relative;
+    display: inline-block;
+}
+
+#c {
+	background: transparent;
+	height: 228px;
+    width: 219px;
+	position: relative;
+	display: inline-block;
+	left: 200px;
+}
+
+#e {
+	background: transparent;
+	height: 228px;
+    width: 219px;
+	position: relative;
+	display: inline-block;
+	left: 150px;
+}
+
+#l {
+	background: transparent;
+	height: 228px;
+    width: 219px;
+	position: relative;
+	display: inline-block;
+	left: 110px;
+}
+
+
+#l2 {
+	background: transparent;
+	height: 228px;
+    width: 219px;
+	position: relative;
+	display: inline-block;
+	left: 65px;
+}
+
+#i {
+	background: transparent;
+	height: 228px;
+    width: 219px;
+	position: relative;
+	display: inline-block;
+	left: 480px;
+}
+
+#q {
+	background: transparent;
+	height: 228px;
+    width: 219px;
+	position: relative;
+	display: inline-block;
+	top:500px;
+	left: 100px;
+}
+
+/* hover states */
+
+/*p:hover, div:hover, a:hover {
+  background-color: yellow;
+}
+*/
+
+#a:hover {
+	transform: scale(2);
+	  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+#b:hover {
+	transform: scale(2) rotateY(30deg);
+
+}
+
+#c:hover {
+	transform: scale(2);
+	color: yellow;
+}
+
+#e:hover {
+	transform: scale(2);
+	color: yellow;
+}
+
+#l:hover {
+	transform: scale(2);
+	  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+#l2:hover {
+	transform: scale(2);
+	  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+#i:hover {
+	transform: scale(2);
+	  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+#q:hover {
+	transform: scale(2);
+	  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/*animations*/
+
+@keyframes spin {
+    0% { transform: rotateY(0deg); }
+    50% { transform: rotateY(360deg); }
+    100% { transform: rotateY(0deg); }
+}
+
+q {
+    animation: spin 2s linear normal forwards;
+}
+
+q:hover{
+  animation-play-state: paused;    
+}
+
+
+
