@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+  background-color: lightgrey;
+  background-image:  url("Asset-31.png");
+  background-position: right;
+  z-index: 0px;}
+}
+
+.container{
+	background: #498FE4;
+	width: 642px;
+	height: 935px;
+	display: center;
+	
+	justify-content: flex-start;
+	/*align-items: flex-start;*/	
+	flex-wrap: wrap;
+	
+}
+
+.centered{
+	height: 100vh;
+	background: gray;
+
+	display: flex;
+	justify-content: center;	
+	align-items: center;
+}
+
+.box{
+	background: white;
+	box-sizing: border-box;
+	position: center;
+	padding: 1em;
+	/*height: 150px;*/
+	/*flex: 1;*/
+	/*min-width: 50%;*/
+}
+
+
+h2{
+	font: futura;
+	font-weight: bold;
+	font-color: #498FE4;
+	text-align: center;
+}
+
+
+p{
+	font: futura;
+    font-color: #498FE4;
+    text-align: center;
+}
+
+
+

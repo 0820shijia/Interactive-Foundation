@@ -1,0 +1,64 @@
+!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> 
+       	<meta name="viewport" content="width=device-width, initial-scale=1">
+       	<link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>chill spirit</title>
+    </head>
+    <body>
+    <div id="container">
+        <div id="captcha">
+    	   <div id="header">
+            <h1> Select all images with
+             <h2>   the chillest spirit
+             <h3> Click verify once there are none left
+           </div>
+            <div id="grid">
+        		<div class="item" id="a">
+                <img src="Asset-21.jpg" />      
+                </div>
+        		<div class="item" id="b">
+                <img src="Asset-22.jpg" />
+                </div>  
+        		<div class="item" id="c">
+                <img src="Asset-23.jpg" />   
+                </div>
+
+        		<div class="item" id="d">
+                <img src="Asset-24.jpg" />         
+                </div>
+        		<div class="item" id="e">
+                <img src="Asset-25.jpg" />       
+                </div>
+                <div class="item" id="f">
+                <img src="Asset-26.jpg" /> 
+                </div>
+                <div class="item" id="g">
+                <img src="Asset-27.jpg" /> 
+                </div>
+                <div class="item" id="h">
+                <img src="Asset-28.jpg" /> 
+                </div>
+                <div class="item" id="i">
+                <img src="Asset-29.jpg" />     
+                </div>
+        	</div>
+            <a href="need-a-break.html">Verify</a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script>
+
+$(document).ready(function(){
+    $('.item').click(function(){
+        $(this).toggleClass('selected');
+    });
+});
+
+</script>
+
+</body>
+</html>
