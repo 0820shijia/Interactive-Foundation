@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <title>Bubble Demo</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+​
+​
+    <script>
+        $(document).ready(function(){
+            $('body').click(function(){
+                $('.eyes').toggleClass('active');
+            });
+        });
+​
+    </script>
+​
+    <style>
+​
+        * {
+            box-sizing: border-box;
+        }
+​
+        .bubble {
+            background: lightblue;
+            width: 200px;
+            padding: 10px;
+            border-radius: 10px;
+            position: relative;
+            margin-bottom: 10px;
+        }
+​
+        .tail {
+            position: absolute;
+            background: red;
+            height: 10px;
+            width: 10px;
+            bottom: 0px;
+            right: -10px;
+        }
+        .definition {
+            display: none;
+        }
+​
+        .bubble:hover .definition {
+            display: block;
+        }
+​
+​
+        .bubble:hover .term {
+            display: none;
+        }        
+​
+        .eyes {
+            width: 200px;
+            height: 200px;
+            background-image: url('bear-1.jpg');
+            background-size: contain;  
+        }
+​
+         .eyes.active {
+            background-image: url('bear-2.jpg');
+         }
+​
+    </style>
+​
+</head>
+<body>
+​
+    <div class="bubble">
+        <span class="term">Wirate</span>
+        <span class="definition">Suspendisse aliquet finibus ligula in ultrices. Ut gravida vehicula sapien eu placerat. Suspendisse quis consectetur ante. Nullam orci nunc, viverra at aliquet vitae, volutpat feugiat nunc. Mauris sollicitudin et urna ac rhoncus. Vestibulum congue pretium ligula, ac laoreet turpis convallis sit amet.</span>
+        <div class="tail">
+            <img />
+        </div>
+    </div>
+​
+    <div class="bubble">
+        <span class="term">Wirate</span>
+        <span class="definition">Suspendisse aliquet finibus ligula in ultrices. Ut gravida vehicula sapien eu placerat. Suspendisse quis consectetur ante. Nullam orci nunc, viverra at aliquet vitae, volutpat feugiat nunc. Mauris sollicitudin et urna ac rhoncus. Vestibulum congue pretium ligula, ac laoreet turpis convallis sit amet.</span>
+        <div class="tail">
+            <img />
+        </div>
+    </div>
+​
+    <div class="eyes">
+        
+    </div>
+​
+​
+</body>
+</html>
